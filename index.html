@@ -15,5 +15,37 @@
     </label>
 
     <button type="submit"> Pesquisar</button>
+
+    <h1>Cardapio restaurante</h1>
+    <form action=""method="POST"></form>
+        <p>
+            <label>Nome</label>
+            <input type="text" nome="nome" required>
+        </p>
+
+        <fieldset>
+            <legend>Escolha o prato</legend>
+            <p>
+                 <input type="radio" name="main" value="Strogonoff de frango" checked> Strogonoff de frango
+            </p>
+        
+            <p>
+                <input type="radio" name="main" value="Parmegiana de carne" checked> Parmegiana de carne
+            </p>
+
+            <p>
+                <input type="radio" name="main" value="Lasanha" checked> Lasanha
+            </p>  
+        </fieldset>
+
+        <fieldset>
+            <legend>Acompanhamentos (escolha no máx 3)</legend>
+            <label>Arroz
+                <input type="checkbox" name="side" value="Arroz"
+            </label>
+
+        </fieldset>
+
+
 </body>
 </html>
